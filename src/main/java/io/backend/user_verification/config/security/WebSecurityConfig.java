@@ -65,8 +65,8 @@ public class WebSecurityConfig{
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
-        mailSender.setUsername("mobpiper@gmail.com");
-        mailSender.setPassword("tqbkzcjylekooqfz");
+        mailSender.setUsername("example@gmail.com"); // replace with gmail
+        mailSender.setPassword("qwertyuiop[asdfg"); // replace with app password
 
         Properties properties = mailSender.getJavaMailProperties();
         properties.put("mail.transport.protocol", "smtp");
